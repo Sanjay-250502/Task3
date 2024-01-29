@@ -41,7 +41,7 @@ xhr.onload = function () {
 
 //! 3) use the same rest countries and print all countries names, regions, sub-region and populations.
 
-let xhr11 = new XMLHttpRequest();
+let xhr1 = new XMLHttpRequest();
 console.log(xhr1);
 xhr1.open("GET", "https://restcountries.com/v3.1/all");
 xhr1.send();
